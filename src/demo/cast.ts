@@ -14,7 +14,7 @@ export const MEETING_TITLE = "Product launch sync";
 
 export const HOST: Person = {
   id: "maya",
-  name: "Maya Okafor",
+  name: "Sandra Fred",
   role: "Head of Product",
   location: "London",
   palette: ["#2563eb", "#7c3aed"],

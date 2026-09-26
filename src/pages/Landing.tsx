@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ArrowRight, Captions, CircleDot, Hand, ShieldCheck, Sparkles, Users } from "lucide-react";
+import { ArrowRight, Captions, CircleDot, Hand, ShieldCheck, Users } from "lucide-react";
 import { Brand } from "../components/Brand";
 import { Tile } from "../components/Tile";
 import { CAST, MEETING_TITLE } from "../demo/cast";
@@ -84,7 +84,7 @@ export function Landing() {
         <section className="hero">
           <div className="hero-copy">
             <span className="pill">
-              <Sparkles size={14} aria-hidden="true" /> Interactive demo
+              Demo
             </span>
             <h1>
               Step into a live
@@ -121,7 +121,7 @@ export function Landing() {
       </main>
 
       <footer className="landing-footer">
-        <p>Your camera and microphone stay on your device. Nothing is recorded or sent anywhere.</p>
+        <p>Your camera and microphone stay on your device.</p>
         <a className="text-link" href="https://cenivo.com" rel="noopener">
           Visit cenivo.com
         </a>
